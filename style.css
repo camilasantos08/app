@@ -1,61 +1,60 @@
-body{
-margin:0;
-font-family: Georgia, serif;
-background:#e8e4e4;
+body {
+  margin: 0;
+  font-family: Georgia;
+  background-color: #e6e2e2;
 }
 
-.cabecalho-principal {
-   display:flex;
-   justify-content:space-between;
-   align-items:center;
-   background:#b78787;
-   padding:15px 30px;
+.topo {
+  background-color: #b88989;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
 }
 
-.logo{
-height: 40px;
+.logo {
+  height: 50px;
 }
 
-nav a{
-background:black;
-color:white;
-text-decoration:none;
-padding:10px 15px;
-margin-left:10px;
+.menu a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  margin-left: 10px;
 }
 
-.titulo{
-text-align:center;
-margin:40px;
+.titulo {
+  text-align: center;
+  margin: 40px;
 }
 
-.titulo h1{
-background:#d6baba;
-display:inline-block;
-padding:20px;
+.titulo p {
+  background-color: #d6baba;
+  display: inline-block;
+  padding: 35px;
 }
 
-.conteudo{
-display:flex;
-justify-content:space-around;
-align-items:center;
-margin:50px;
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
 }
 
-.conteudo{
-display:flex;
-justify-content:space-around;
-align-items:center;
-margin:50px;
+.texto {
+  background-color: #d6baba;
+  padding: 50px;
+  width: 60%;
 }
 
-.imagem img{
-width:250px;
+.imagem {
+  width: 250px;
 }
 
-footer{
-background:#b78787;
-text-align:right;
-padding:20px;
-font-size:18px;
+.rodape {
+  background-color: #b88989;
+  padding: 20px;
+  text-align: right;
+  margin-top: 50px;
 }
